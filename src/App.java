@@ -13,7 +13,7 @@ public class App {
         String[] data = input.split(" ");
 
         for (String s : data) {
-            queue.add(Integer.parseInt(s));
+            queue.add(Integer.valueOf(s));
         }
 
         while (!queue.isEmpty()) {
